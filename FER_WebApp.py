@@ -1,5 +1,3 @@
-
-
 # Importing required libraries, obviously
 import logging
 import logging.handlers
@@ -9,7 +7,7 @@ import streamlit as st
 import cv2
 import numpy as np
 from keras.models import model_from_json
-from tensorflow.keras.utils import img_to_array
+from keras.preprocessing.image import img_to_array
 from streamlit_webrtc import VideoTransformerBase, webrtc_streamer
 import av
 from typing import Union
@@ -373,8 +371,8 @@ def main():
             text_input = st.text_input(label='Enter some text')
             submit_button = st.form_submit_button(label='Submit')
         st.write('''
-                  Email:- sawantr477@gmail.com.
-                  Linkedin:-https://www.linkedin.com/in/in/rupali-sawant-4806b2223
+                  Email:- sawantr477@gmail.com
+                  Linkedin:-https://www.linkedin.com/in/rupali-sawant-4806b2223
                   
                   ''')
         

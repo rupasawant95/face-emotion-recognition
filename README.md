@@ -31,3 +31,15 @@ Analyzing the movement of facial features and/or changes in the appearance of fa
 # 3. Real Time Emotion Detection Results
 
 The model gave an accuracy of 0.68 on the test data which was kept aside. This indicates the model is generalizing well on unseen data as well. Here are some results of the real time test. Since the observations for disgust class were pretty low, the model is able to correctly recognize rest of the classes pretty well.![1653832693512](https://user-images.githubusercontent.com/101975292/170872919-1f2459ae-f75f-4cf2-89df-d359a5ef7be7.png)
+
+# 4. Evaluation Metrics
+
+Loss and Accuracy Graph![accuracy](https://user-images.githubusercontent.com/101975292/170873156-bcb74c15-3b66-410c-99cb-6ec92f9986e1.png)
+
+# 5. Conclusion
+
+    We trained the neural network and we achieved the highest validation accuracy of 63.43%.
+    Pre Trained Model didn't gave appropriate result.
+    Our Model can succesfully detect face and predict emotion on live video feed as well as on an image.
+
+

@@ -1,3 +1,5 @@
+## Face Emotion Recognition
+
 # 1. Convolutional Neural Netwroks
 A Convolutional Neural Network is a Deep Learning technique that can take an input image and assign weights and biases to various objects in the image, allowing it to distinguish between them. In comparison to other classification algorithms, ConvNet requires substantially less pre-processing. While basic approaches require hand-engineering filters, ConvNets can learn these features with enough training.
 
@@ -30,13 +32,31 @@ Analyzing the movement of facial features and/or changes in the appearance of fa
 
 # 3. Real Time Emotion Detection Results
 
-The model gave an accuracy of 0.68 on the test data which was kept aside. This indicates the model is generalizing well on unseen data as well. Here are some results of the real time test. Since the observations for disgust class were pretty low, the model is able to correctly recognize rest of the classes pretty well.![1653832693512](https://user-images.githubusercontent.com/101975292/170872919-1f2459ae-f75f-4cf2-89df-d359a5ef7be7.png)
+The model gave an accuracy of 0.68 on the test data which was kept aside. This indicates the model is generalizing well on unseen data as well. Here are some results of the real time test. Since the observations for disgust class were pretty low, the model is able to correctly recognize rest of the classes pretty well.
+![emotion detection output  pic](https://user-images.githubusercontent.com/101975292/170924695-741bef85-0f6d-40a5-8381-80ca476d5394.png)
+![emotion detection output pic 2](https://user-images.githubusercontent.com/101975292/170924706-5aa254e9-9867-434f-85aa-2cd3370454ba.png)
 
-# 4. Evaluation Metrics
+
+# 4.Evaluation Metrics
 
 Loss and Accuracy Graph![accuracy](https://user-images.githubusercontent.com/101975292/170873156-bcb74c15-3b66-410c-99cb-6ec92f9986e1.png)
 
-# 5. Conclusion
+# 5.Execution Instructions
+
+1.Create a project folder
+2.Create a virtual environment, for windows:
+conda create -n deep learning python=3.9.12
+activate deep learning
+3.Download localapp.py, model(1).h5 and haarcascade_frontalface_default.xml in the same folder.
+4.Install the dependencies from requirements.txt
+Note: Install opencv-python as well, opencv-python-headless in the requirements file is to adjust the size requirements for web app deployment purposes. To run app.py requirements.txt is enough.
+5.Run real_time_demo.py
+
+# 6.Web Application Deployment
+
+Streamlit : https://share.streamlit.io/rupasawant95/face-emotion-recognition/main/localapp.py
+
+# 7. Conclusion
 
     We trained the neural network and we achieved the highest validation accuracy of 63.43%.
     Pre Trained Model didn't gave appropriate result.

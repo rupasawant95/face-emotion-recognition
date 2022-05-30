@@ -58,7 +58,7 @@ Streamlit : https://share.streamlit.io/rupasawant95/face-emotion-recognition/mai
 
 Streamlit video : https://github.com/rupasawant95/face-emotion-recognition/blob/main/Streamlit%20video%20output.mp4
 
-local app video :
+local app video : https://github.com/rupasawant95/face-emotion-recognition/blob/main/local%20app%20video%20output.mp4
 
 ## 7. Conclusion
 

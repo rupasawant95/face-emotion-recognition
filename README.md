@@ -55,7 +55,9 @@ Note: Install opencv-python as well, opencv-python-headless in the requirements 
 ## 6.Web Application Deployment
 
 Streamlit : https://share.streamlit.io/rupasawant95/face-emotion-recognition/main/localapp.py
-Streamlit video :
+
+Streamlit video : https://github.com/rupasawant95/face-emotion-recognition/blob/main/Streamlit%20video%20output.mp4
+
 local app video :
 
 ## 7. Conclusion
